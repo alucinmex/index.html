@@ -3,68 +3,113 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./reset.css" />
+      <link rel="stylesheet"  type="text/css" href="./styles.css" />
       <title>Mi pagina web</title>
    </head>
    <body>
 
       <header>
-          <h1>Mi pagina web</h1>
-      <p>Mi nombre es yonireyesm85.</p>
-
+         <div id="titulos">
+            <h1 class="title" id="principal">Mi pagina web</h1>
+      <p class="name" >Mi nombre es yonireyesm85.</p>
+         </div>
+          
       <span>Home</span>
-      <span>Noticias</span>
-      <span>El clima</span>
+      <span>HTML</span>
+      <span>CSS</span>
       </header>
 
    <main>
 
-      <img src="./periodista.jpg" />
+      <img src="./shredder.png" class="logo" />
 
        <section>
 
-<h2>Este es el titulo de una seccion de noticias</h2>
+<h2 class="title">Estoy aprendiendo HTML y CSS</h2>
 
          <article>
          
-      <h3>Esta es la noticia no.1</h3>
-
+      <h3>¿Que es HTML?</h3>
+      <hr />
       <div>
-         <p>Este sera el primer parrafo de mi noticia y sera una noticia muy importante</p>
+         <p>HyperText Markup Lenguage (HTML) Es un lenguaje de marcado utilizado para crear paginas web. Este tipo de codigo te permitira crear una pagina web sencilla</p>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, vel, accusamus
       delectus numquam ex reiciendis soluta cupiditate ullam distinctio inventore dignissimos hic
       voluptate autem, sed possimus! Dolorem quae corrupti dolorum?</p>
       </div>
-      
+
+      <h3>Crear un archivo HTML</h3>
+
+      <div>
+         <p>Dirigete al escritorio de tu computadora y crea un archivo llamado index.html. Luego abre este archivo desde Visual Studio Code</p>
+         <p>Ahora deberas integrar el codigo basico de un archivo HTML. Puedes ayudarte escribiendo HTML y el VSCode desplegara unas opciones puedes elegir HTML :5</p>
+      </div>
+
+      <h3>Visualizalo en la nuve</h3>
+
+      <div>
+         <p>Ahora has doble click en el archivo que creaste anteriormente en tu escitorio. Veras que se abre tu navegador web y encontraras un mensaje similar a este "index.html"</p>
+      </div>
          </article>
-      <hr />
+      
       <article>
 
-      <h3>Esta es la noticia no.2</h3>
-      <p>Este es un listado de cosas importantes para esta noticia</p>
+      <h3>Todos los archivos HTML estan conformados por distintos elementos. Estos elementos son componentes individuales (conocidos como etiquetas) que nos permiten darle una estructura al archivo</h3>
+      <p>Aqui tenemos algunos ejemplos de etiquetas</p>
 
       <ol>
-         <li>Este es el item </li>
-         <li>Este es el item </li>
-         <li>Este es el item </li>
+         <li>Etiquetas de formato </li>
+         <li>Etiquetas de bloque </li>
+         <li>Etiquetas de contenido </li>
+         <li>Etiqueta Lorem </li>
+         <li>Etiqueta < a </li>
+         <li>Etiqueta < input </li>
       </ol>
          </article>
-      <hr />
+         <hr />
       <article>
+      
+   <div id="cards-container">
 
-      <h3>Esta es la noticia no.3</h3>
-      <p>Este listado de cosas importantes no estara ordenado</p>
+      <div class="cards" >
+         <h4>imagen 1 </h4>
+         <img src="./glitch.gif" class="logo" />
+      </div> 
 
+      <div class="cards" >
+         <h4>imagen 2 </h4>
+         <img src="./bender.png" class="logo" />
+      </div>
+
+   </div>
+
+      <h3>¿Que es CSS? </h3>
+      <hr />
+      <div>
+         <p>CSS significa Cascading Style Sheets (hojas de estilo cascada) Este permite a los desarrolladores web controlar el diseño y la apariencia de sus sitios web separando el contenido (como el texto y las imagenes) de la presentacion (como los colores, las fuentes y el diseño) </p>
+         <p>Dato: Los archivos CSS tienen extencion .CSS</p>
+      </div>
+
+      <h3>En este listado no ordenado encontraremos algunas propiedades de CSS </h3>
+      
       <ul>
-         <li>Este es un elemento</li>
-         <li>Este es un elemento adicional</li>
-         <li>Este es otro elemento adicional</li>
+         <li>Estilo in-line</li>
+         <li>Pseudoclases</li>
+         <li>Id</li>
+         <li>Etiquetas</li>
+         <li>Flexbox</li>
+         <li>clases</li>
       </ul>
          </article>
-
+         <hr />
        </section>
    </main>
 
       <footer>
+
+      <img src="./diviner.gif" class="logo" />
+
          <p>
             Este es el footer de mi pagina. Ahora voy a poner unos enlaces 
          </p>
@@ -79,5 +124,5 @@
 
 
 
-Para mi es muy importante aprender html
+Para mi es muy importante aprender html y css 
 
